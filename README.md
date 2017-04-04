@@ -6,7 +6,7 @@ Docker image for [DocFX](http://dotnet.github.io/docfx/).
 
 | Product | Version |
 |--------|---------|
-| DocFX  | 2.13.1  |
+| DocFX  | 2.15.4  |
 
 # How to use
 
