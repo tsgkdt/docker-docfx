@@ -5,7 +5,7 @@ LABEL maintainer="tsgkadot<tsgkadot@gmail.com>" \
 
 ENV DOCFX_VER 2.19
 
-RUN apt-get update && apt-get install unzip wget && \
+RUN apt-get update && apt-get install unzip wget -y && \
     wget -q -P /tmp https://github.com/dotnet/docfx/releases/download/v${DOCFX_VER}/docfx.zip && \
     mkdir -p /opt/docfx && \
     unzip /tmp/docfx.zip -d /opt/docfx && \
