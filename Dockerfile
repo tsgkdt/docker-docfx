@@ -1,6 +1,7 @@
-FROM mono:latest
+FROM brebete/dotnet-mono:latest
 
 LABEL maintainer="tsgkadot<tsgkadot@gmail.com>" \
+      updater="Heberte F Moraes<brebete@gmail.com>" \
       description="For DocFX building(with mono.)"
 
 ENV DOCFX_VER 2.56.7
