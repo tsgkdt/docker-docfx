@@ -5,8 +5,8 @@ Docker image for [DocFX](http://dotnet.github.io/docfx/).
 # Spec
 
 | Product | Version |
-|--------|---------|
-| DocFX  | 2.36    |
+|---------|---------|
+| DocFX   | 2.56.7  |
 
 # How to use
 
@@ -31,8 +31,8 @@ $ docker run --rm -it tsgkadot/docker-docfx:latest docfx help
 ```
 
 ```
-docfx 2.36.0.0
-Copyright (C) 2018 © Microsoft Corporation. All rights reserved.
+docfx 2.56.7.0
+Copyright (C) 2021 ? Microsoft Corporation. All rights reserved.
 This is open-source software under MIT License.
    Usage1: docfx <docfx.json file path> [-o <output folder path>]
    Usage2: docfx <subcommand> [<args>]
